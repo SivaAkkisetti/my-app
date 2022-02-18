@@ -7,13 +7,12 @@
 	<version>0.0.7-SNAPSHOT</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
+	<build>
 	<plugins>
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.9.1.2184</version>
-        </plugin>
-    	</plugins>
 
 	<dependencies>
 		<dependency>
@@ -44,5 +43,8 @@
 		    <version>5.2.0</version>
 		</dependency>
 	</dependencies>
+	</plugin>
+    	</plugins>
+	</build>
 	
 </project>
